@@ -1,11 +1,11 @@
 import os
 import pandas as pd
 
-# Specify the directory containing the .mp4 files
-video_directory = '/home/fade_leaf/Videos/youtube/'
+# Specify the directory containing the .mp4 files ot any files
+video_directory = '/place your directory here/'
 
 # Specify the path to the CSV file with the renaming data
-csv_file = '/home/fade_leaf/Downloads/Youtube ideas - Sheet1(1).csv'
+csv_file = '/place your directory here/'
 
 def rename_videos_from_csv(directory, csv_path):
     try:
